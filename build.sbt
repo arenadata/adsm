@@ -53,7 +53,9 @@ libraryDependencies ++= Seq(
   "org.mockito" % "mockito-core" % "1.10.19" % "test",
   "com.yammer.metrics" % "metrics-core" % "2.2.0" force(),
   "com.unboundid" % "unboundid-ldapsdk" % "4.0.9",
-  "org.eclipse.jetty" % "jetty-server" % "11.0.7" % "test"
+  "org.eclipse.jetty" % "jetty-server" % "11.0.7" % "test",
+  "org.apache.zookeeper" % "zookeeper" % "3.8.4",
+  "org.apache.zookeeper" % "zookeeper-jute" % "3.8.4"
 )
 
 routesGenerator := InjectedRoutesGenerator
